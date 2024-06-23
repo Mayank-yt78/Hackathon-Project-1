@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING CARPENTERS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <!-- logo -->
+            <div class="nav-logo">
+                <svg width="90  px" height="35px" viewBox="0 0 91.928 30">
+                    <path fill="#000"
+                        d="M0 11.18h7.255l4.275 9.183 4.486-9.183h7.149l-9.463 17.979h-4.38L0 11.18zm22.991-6.799C22.991 1.962 24.954 0 27.407 0c2.418 0 4.346 1.962 4.346 4.381s-1.928 4.416-4.346 4.416a4.42 4.42 0 0 1-4.416-4.416zm.981 24.778V11.18h6.729v17.979h-6.729zM34.241 5.573h6.519v5.607h3.855v5.152H40.76v12.827h-6.589V16.367h-1.928V11.18h1.963l.035-5.607zm12.055 5.607h6.729l-.105 2.523s1.752-2.979 5.993-2.979c.245 0 .491 0 .736.035v6.099c-.524-.245-1.227-.386-1.962-.386-2.173 0-4.767 1.051-4.767 3.26v9.427h-6.624V11.18zm22.431-.596c2.278 0 4.486.912 6.064 2.489V11.18h6.062v17.979h-6.167s-.036-.56-.036-1.156c0-.279 0-.561.036-.806-1.473 1.822-3.681 2.698-5.959 2.698-5.677 0-9.042-4.977-9.042-9.708 0-4.276 2.769-8.341 7.184-9.392a8.352 8.352 0 0 1 1.858-.211zM75 20.257c0-2.417-1.962-4.346-4.381-4.346-2.418 0-4.451 1.928-4.451 4.346s2.033 4.452 4.451 4.452C73.038 24.708 75 22.675 75 20.257zm8.131 5.398c0-2.488 1.927-4.451 4.416-4.451 2.418 0 4.381 1.963 4.381 4.451 0 2.383-1.963 4.346-4.381 4.346-2.489-.001-4.416-1.963-4.416-4.346z">
+                    </path>
+                </svg>
+            </div>
+
+            <!-- nav-text -->
+            <div class="nav-text">
+                <div class="nav-item" data-slide="products">Products</div>
+                <div class="nav-item" data-slide="inspirations">Inspirations</div>
+                <div class="nav-item" data-slide="professionals">Professionals</div>
+                <div class="nav-item" data-slide="magazine">Magazine</div>
+                <div class="nav-item" data-slide="vitra-campus">Vitra Campus</div>
+            </div>
+
+            <!-- nav-icons -->
+            <div class="nav-icons">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path
+                            d="M22.425 22.22a.878.878 0 00.191-.288.935.935 0 00.028-.14.875.875 0 00.037-.19.9.9 0 00-.03-.155.869.869 0 00-.035-.176.9.9 0 00-.191-.288l-6.053-6.053c-.017-.017-.04-.023-.058-.038a7.983 7.983 0 00-.662-10.552 8 8 0 10-.536 11.8c.008.008.01.019.018.028l6.053 6.052c.007.007.016.009.023.016a.674.674 0 00.471.216.767.767 0 00.125.025.827.827 0 00.173-.034.909.909 0 00.157-.031.88.88 0 00.289-.192zm-12.43-5.723a6.5 6.5 0 114.6-1.9 6.459 6.459 0 01-4.602 1.9z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-name="Icon - User">
+                        <path
+                            d="M19.746 22.75a7.75 7.75 0 00-15.492 0h1.5a6.25 6.25 0 0112.49 0zm-7.746-9A5.75 5.75 0 106.254 8a5.756 5.756 0 005.75 5.75m0-10A4.25 4.25 0 117.754 8 4.255 4.255 0 0112 3.75">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <img height="20vh" src="https://static.vitra.com/static/v10.0.39//countries/WORLD.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    
+<div class="nsvslide">
+    <div class="nsvslide-content" id="products-content">
+        <div class="slide-nav1">
+                <div>
+                    <p>Seating furniture</p>
+                    <ul>
+                        <li>Chairs</li>
+                        <li>Lounge chairs</li>
+                        <li>Sofas</li>
+                        <li>Office chairs</li>
+                        <li>Chaises longues</li>
+                        <li>Stools & benches</li>
+                        <li>Sculptures</li>
+                        <li>Conference chairs</li>
+                        <li>Airport seating</li>
+                    </ul>
+                    <p>Spatial organisation</p>
+                    <ul>
+                        <li>Storage space</li>
+                        <li>Micro architecture</li>
+                    </ul>
+            </div>
+            <div>
+                <p>Tables</p>
+             <ul>
+                <li>Dining tables</li>
+                <li>Café tables</li>
+                <li>Coffee & side tables</li>
+                <li>Desks</li>
+                <li>Office furniture systems</li>
+                <li>Conference systems</li>
+             </ul>
+                    <p>Accessories</p>
+                <ul>
+                    <li>Lighting</li>
+                    <li>Clocks</li>
+                    <li>Decorative objects</li>
+                    <li>Decorative objects</li>
+                    <li>Trays & vessels</li>
+                </ul>
+                <p><u>More</u></p>
+            </div>
+            <div>
+                <p>Designer</p>
+                <ul>
+                    <li>Alexander Girard</li>
+                    <li>Antonio Citterio</li>
+                    <li>Charles & Ray Eames</li>
+                    <li>Barber Osgerby</li>
+                    <li>George Nelson</li>
+                    <li>Hella Jongerius</li>
+                    <li>Isamu Noguchi</li>
+                    <li>Jasper Morrison</li>
+                    <li>Jean Prouvé</li>
+                    <li>Konstantin Grcic</li>
+                    <li>Ronan & Erwan Bouroullec</li>
+                    <li>Verner Panton</li>
+                    <li>Julie Richoz</li>
+                </ul>
+                <p><u>More</u></p>
+            </div>
+            <div>
+                <p>Service</p>
+                <ul>
+                    <li>Care & repair</li>
+                    <li>Care products</li>
+                    <li>Manufacturer warranty</li>
+                </ul>
+                <p>Discover</p>
+                <ul>
+                    <li>New</li>
+                    <li>Bestseller</li>
+                    <li>Quickship</li>
+                    <li>Gift finder</li>
+                    <li>Office chair finder</li>
+                    <li>Lounge chair finder</li>
+                    <li>Colour & material</li>
+                </ul>
+            </div>
+            <div class="nav1-imgs">
+                <img src="https://static.vitra.com/media-resized/ljZGRmgW0gCuivCj3KEYWDVEBUNTzrV9qtFW3o5Q-uc/fill/0/390/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzkxMzQ2MzEvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84Mjk3NzgxNS5qcGc.jpg" alt="#">
+                <img src="https://static.vitra.com/media-resized/tXoAa0s5B3KMH7WAxCSkbAmMINvdUOl832ThMJNc6ls/fill/0/390/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0Lzg5MjkwOTkvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84MjY0NjU2Ni5qcGc.jpg" alt="#">
+            </div>
+         </div>
+    </div>
+    <div class="nsvslide-content" id="inspirations-content">
+        <h2>Inspirations</h2>
+        <!-- Add content for inspirations -->
+    </div>
+    <div class="nsvslide-content" id="professionals-content">
+        <h2>Professionals</h2>
+        <!-- Add content for professionals -->
+    </div>
+    <div class="nsvslide-content" id="magazine-content">
+        <h2>Magazine</h2>
+        <!-- Add content for magazine -->
+    </div>
+    <div class="nsvslide-content" id="vitra-campus-content">
+        <h2>Vitra Campus</h2>
+        <!-- Add content for Vitra Campus -->
+    </div>
+</div>
+
+        <!-- section 1 -->
+        <section class="hero-section">
+            <!-- video section -->
+            <div class="hero-bg">
+                <img src="./images/82895451.jpg" alt="">
+            </div>
+
+            <!-- content section -->
+            <div class="hero-content-1">
+                <div class="hero-content-visible">
+                    <h1>sabine marcelis editions 2024 - designs by verner panton</h1>
+                </div>
+            </div>
+
+            <!-- <div class="hero-content-2">
+                <div class="hero-content-invisible">
+                    <h1>sabine marcelis editions 2024 - designs by verner panton</h1>
+                    <p>Available from 12 to 14 june on vitra.com</p>
+                    <button>a few pieces still available in the vitrahaus</button>
+                </div>
+            </div> -->
+        </section>
+
+
+        <!-- section 2 -->
+        <div class="swipper-code swiper mySwiper">
+            <section class="card-section swiper-wrapper">
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/pu_jDBxWJej4SnTfMKdJvD_OvBQFNO0K9vFHf3i4WkE/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0Lzg5Mjg2NDEvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84MjY0NTIyMy5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>home stories for spring</h1>
+                        <p>Inspirations for homes</p>
+                    </div>
+                </div>
+
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/GpAmNkc1YB_VNd_Rx8p9pOtnxSlO-c2lM-k8mdeW5mw/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzkxNTQ4OTUvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84MzAyOTE0Mi5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>VitraHaus Loft</h1>
+                        <p>New Installation in the VitraHaus, level 4</p>
+                    </div>
+                </div>
+
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/UbgAdYnA2SEgAdrhcvpc5arRVnkQGJ25silnp81nC2w/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzkxMzQ2MzEvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84Mjk3NzgxNS5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>Mikado</h1>
+                        <p>The chair that moves with you</p>
+                    </div>
+                </div>
+
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/7zNCrC6nlaGZAD0tyAvQ5VAWLk5HzPIzpEzlKD9fdCU/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzkxNDAzNzIvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84Mjk4OTE3MC5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>Plan your visit</h1>
+                        <p>Vitra Campus</p>
+                    </div>
+                </div>
+
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/B5ZyX9k2_-ulJXlB0RTcDLHZN3VMrvDVyon3_WMPwNw/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0Lzg5OTcxMzQvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC84Mjc2MjAzNC5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>Inspiring and flexible workspaces</h1>
+                        <p>Collaborate with us - Consulting and Planning Studios</p>
+                    </div>
+                </div>
+
+                <div class="section-card swiper-slide">
+                    <div class="section-card-image">
+                        <img src="https://static.vitra.com/media-resized/tuvsSIfDde-01yEus_2RruhDv1MQmN0S9ElUbwPCMd8/fill/680/383/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0Lzc0MTcwNTQvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC83NzM1NTIwNC5qcGc.jpg"
+                            alt="">
+                    </div>
+                    <div class="section-card-text">
+                        <h1>No matter which industry and where in the world</h1>
+                        <p>Our Clients</p>
+                    </div>
+                </div>
+                <div class="swiper-slide"></div>
+            </section>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+
+
+        <!-- section 3 -->
+        <div id="animate" class="hero-section2">
+            <img src="https://static.vitra.com/media-resized/WwyuQz0aJOVn796Slsjokp3Gpe_gnZmcamziq8XlzZ4/fill/1440/0/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzgyMzMyNjcvc3RvcmFnZS92X3BhcmFsbGF4XzE5MjB4MTA4MC83Nzk2MTI5OC5qcGc.jpg"
+                alt="">
+            <div class="hero-card-text">
+                <h1>Vitra’s Environmental</h1>
+                <p> Mission</p>
+                <button>MORE DETAILS</button>
+            </div>
+        </div>
+
+
+        <!-- Product category -->
+        <section class="product-categories">
+            <h3>Product Categories</h3>
+            <div class="img-category">
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/9016520/storage/v_fullbleed_1440x/82755682.jpg"
+                        alt="">
+                    <h1>Chairs</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985199/storage/v_fullbleed_1440x/82756459.jpg"
+                        alt="">
+                    <h1>Dining Tables</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985147/storage/v_fullbleed_1440x/82756335.jpg"
+                        alt="">
+                    <h1>Office Chairs</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8971567/storage/v_fullbleed_1440x/82741018.jpg"
+                        alt="">
+                    <h1>Desks</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/5770290/storage/v_fullbleed_1440x/61559721.jpg"
+                        alt="">
+                    <h1>Lounge Chairs</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985633/storage/v_fullbleed_1440x/82756643.jpg"
+                        alt="">
+                    <h1>Sofas</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985110/storage/v_fullbleed_1440x/82756325.jpg"
+                        alt="">
+                    <h1>Coffee and Side Tables</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985177/storage/v_fullbleed_1440x/82756349.jpg"
+                        alt="">
+                    <h1>Accessories</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985214/storage/v_fullbleed_1440x/82756473.jpg"
+                        alt="">
+                    <h1>Office furnitures Systems</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985072/storage/v_fullbleed_1440x/82756222.jpg"
+                        alt="">
+                    <h1>Cafe Tables</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8984952/storage/v_fullbleed_1440x/82756179.jpg"
+                        alt="">
+                    <h1>Conference chairs</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985652/storage/v_fullbleed_1440x/82756657.jpg"
+                        alt="">
+                    <h1>Conference systems</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985873/storage/v_fullbleed_1440x/82756758.jpg"
+                        alt="">
+                    <h1>Micro Architecture</h1>
+                </div>
+                <div class="card">
+                    <img src="https://static.vitra.com/media/asset/8985869/storage/v_fullbleed_1440x/82756742.jpg"
+                        alt="">
+                    <h1>Airport Seating</h1>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- NewsLetter section -->
+
+        <section class="newsLetter-section">
+            <!-- left side -->
+            <div class="newsLetter-left">
+                <h4>Vitra NewsLetter</h4>
+                <p>New products, limited editions, event invitations and much more.</p>
+            </div>
+
+            <!-- right side -->
+            <div class="newsLetter-right">
+                <span>
+                    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                        <g transform="translate(-704 -2001.533)">
+                            <circle cx="25" cy="25" r="25" data-name="Ellipse 22847"
+                                transform="translate(704 2001.533)"></circle>
+                            <path fill="#fff"
+                                d="M735.364 2035.395h-12.728a.909.909 0 01-.909-.909v-8.182H719l9.388-8.535a.909.909 0 011.223 0l9.389 8.535h-2.727v8.177a.909.909 0 01-.909.914zm-5.455-1.814h4.545v-8.952L729 2019.67l-5.455 4.959v8.952h4.545v-5.459h1.818z">
+                            </path>
+                        </g>
+                    </svg>
+                    <p>Private customers</p>
+                    <svg class="icon-svg-small" width="20" height="20" viewBox="0 0 20 20" class="radioLabelWithTooltipIcon_r11knua5">
+                        <g fill-rule="nonzero">
+                            <path
+                                d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm0 1.5a8.5 8.5 0 110 17 8.5 8.5 0 010-17z">
+                            </path>
+                            <path
+                                d="M11.356 6c0 .746-.61 1.356-1.356 1.356-.746 0-1.356-.61-1.356-1.356 0-.746.61-1.356 1.371-1.356.747 0 1.34.61 1.34 1.356zM11 16H9V9h2v7z">
+                            </path>
+                        </g>
+                    </svg>
+                </span>
+                <span>
+                    <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                        <g transform="translate(-954.5 -2001.967)">
+                            <circle cx="25" cy="25" r="25" data-name="Ellipse 22846"
+                                transform="translate(954.5 2001.967)"></circle>
+                            <path fill="#fff"
+                                d="M987.682 2033.512h1.818v1.818h-20v-1.818h1.818v-13.636a.909.909 0 01.909-.909h9.091a.909.909 0 01.909.909v13.636h3.636v-7.272h-1.818v-1.818h2.727a.909.909 0 01.909.909zm-14.546-12.727v12.727h7.273v-12.727zm1.818 5.455h3.636v1.818h-3.635zm0-3.636h3.636v1.818h-3.635z"
+                                data-name="Pfad 7429"></path>
+                        </g>
+                    </svg>
+                    <p>Business customers</p>
+                    <svg class="icon-svg-small" width="20" height="20" viewBox="0 0 20 20" class="radioLabelWithTooltipIcon_r11knua5">
+                        <g fill-rule="nonzero">
+                            <path
+                                d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm0 1.5a8.5 8.5 0 110 17 8.5 8.5 0 010-17z">
+                            </path>
+                            <path
+                                d="M11.356 6c0 .746-.61 1.356-1.356 1.356-.746 0-1.356-.61-1.356-1.356 0-.746.61-1.356 1.371-1.356.747 0 1.34.61 1.34 1.356zM11 16H9V9h2v7z">
+                            </path>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+        </section>
+
+
+        <!-- footer section -->
+
+        <footer class="footer-section">
+            <!-- top footer -->
+            <div class="top-footer">
+                <div class="top-footer-part-1">
+                    <div class="top-footer-part-1-first">
+                        <h6>Products</h6>
+                        <p>All Products</p>
+                        <p>New Products</p>
+                        <p>Designer</p>
+                        <p>manufaturer warranty</p>
+                        <p>colours & materials</p>
+                    </div>
+                    <div class="top-footer-part-1-second">
+                        <h6>professionals</h6>
+                        <p>downloads</p>
+                        <p>projects</p>
+                        <p>our clients</p>
+                        <p>tools</p>
+                    </div>
+                </div>
+
+                <div class="top-footer-part-2">
+                    <h6>about vitra</h6>
+                    <p>facts</p>
+                    <p>vitra campus</p>
+                    <p>sustainability</p>
+                    <p>magazine</p>
+                    <p>jobs & carrers</p>
+                    <p>press</p>
+                </div>
+
+                <div class="top-footer-part-3">
+                    <div class="top-footer-part-3-first">
+                        <h6>contact</h6>
+                        <p>contact vitra</p>
+                        <p>find vitra</p>
+                        <p>vitra companies</p>
+                        <p>subscribe to the newsletter</p>
+                        <p>vitra circle stores</p>
+                    </div>
+                    <div class="top-footer-part-3-second">
+                        <h6>legal</h6>
+                        <p>distribution rights</p>
+                        <p>imprint</p>
+                        <p>privacy policy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bottom footer -->
+            <div class="bottom-footer"></div>
+        </footer>
+        <div class="elfsight-app-f4f455f9-1bf8-4bfb-b5f9-165c8b079876 insta-feed" data-elfsight-app-lazy></div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
