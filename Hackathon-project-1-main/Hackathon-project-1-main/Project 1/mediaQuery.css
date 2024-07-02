@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger i {
+    font-size: 18px;
+  }
+  .navbar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .nav-t {
+    width: 100%;
+    display: none;
+  }
+  .nav-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .hide-obj {
+    display: none;
+  }
+  .hero-section2 img {
+    width: 100%;
+  }
+  .hero-bg img {
+    height: 50vh;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .hero-content-1 {
+    display: none;
+    opacity: 0;
+  }
+  .hero-section {
+    position: relative;
+  }
+
+  .hero-responsive {
+    margin-top: 8vh;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-responsive h1 {
+    font-size: 7vh;
+    font-weight: 50;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  .hero-responsive p {
+    font-size: 4vh;
+    font-weight: 100;
+    color: #000;
+  }
+  .bottom-footer .button {
+    padding: 12px 15vh;
+  }
+
+  .hero-responsive button {
+    font-size: 2.5vh;
+    padding: 3vh 100px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    margin-top: 5vh;
+    text-transform: uppercase;
+  }
+
+  .hero-section.no-hover .hero-content-invisible {
+    opacity: 1;
+  }
+  .product-categories h3 {
+    font-size: 30px;
+  }
+
+  .swiper {
+    margin: 20vh 0;
+  }
+
+  .newsLetter-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .newsLetter-left {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-section {
+    padding: -50px;
+  }
+  .newsLetter-right {
+    width: 100%;
+  }
+
+  .center-footer {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh 0;
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .center-footer h6 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+    /* padding: 10vh 0; */
+  }
+
+  .top-footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-card-text h1 {
+    font-size: 30px;
+  }
+  .hero-card-text p {
+    font-size: 30px;
+  }
+  .hero-card-text button {
+    margin-top: 30px;
+    border-top: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+    font-size: 15px;
+  }
+  .img-category .card img {
+    width: 25vw;
+    height: 40vh;
+    filter: brightness(0.85);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-section2 {
+    height: 250px;
+  }
+
+  .img-category .card img {
+    width: 35vw;
+    height: 50vh;
+    object-fit: cover;
+  }
+}
